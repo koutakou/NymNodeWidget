@@ -18,17 +18,19 @@ A macOS menu bar app that displays the current role of a Nym Mixnode and a Nym g
 
 ## Building and Running
 
-1. Open Terminal and navigate to the project directory:
+1. Replace "NODE_ID" occurence in main.swift and /PATH/TO in plist file
+
+2. Open Terminal and navigate to the project directory:
    ```
    cd /PATH/TO/NymStatusWidget
    ```
 
-2. Build the application:
+3. Build the application:
    ```
    swift build
    ```
 
-3. Run the application:
+4. Run the application:
    ```
    swift run
    ```
